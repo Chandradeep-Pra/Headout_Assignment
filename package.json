@@ -1,0 +1,21 @@
+{
+  "name": "headout-assesment",
+  "version": "1.0.0",
+  "description": "Optimize HTTP Server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Chandradeep Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "docker": "^1.0.0",
+    "docker-compose": "^0.24.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
