@@ -8,6 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
+RUN npm init
 RUN npm install express nodemon 
 
 # Copy the rest of the application code
